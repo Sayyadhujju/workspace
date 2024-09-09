@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - College Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <button class="navbar-toggle" id="navbarToggle">☰</button>
+        <div class="navbar-brand">
+            <h1>Admin Dashboard</h1>
+        </div>
+        <nav class="navbar-menu" id="navbarMenu">
+            <ul>
+                <li><a href="overview.html">Overview</a></li>
+                <li><a href="students.html">Students</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="faculty.html">Faculty</a></li>
+                <li><a href="settings.html">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-content">
+        <section id="courses">
+            <h2>Courses</h2>
+            <p>Manage course information and view course details.</p>
+            <!-- Example table -->
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Course ID</th>
+                        <th>Course Name</th>
+                        <th>Instructor</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>101</td>
+                        <td>Calculus</td>
+                        <td>Dr. Adams</td>
+                        <td>Available</td>
+                    </tr>
+                    <tr>
+                        <td>102</td>
+                        <td>Biology</td>
+                        <td>Dr. Brown</td>
+                        <td>Full</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

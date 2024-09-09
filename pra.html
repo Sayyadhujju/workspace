@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function f1(){
+            var a=parseInt(document.getElementById("f2").value);
+            var b=parseInt(document.getElementById("f3").value);
+            var c=a+b;
+            document.write(c);
+        }
+        function f4(){
+            var a=parseInt(document.getElementById("f2").value);
+            var b=parseInt(document.getElementById("f3").value);
+            var d=a*b;
+            document.write(d);
+        }
+        
+    </script>
+    
+</head>
+<body>
+    
+    <form >
+    <br><input type="text" id="f2" name="f2"></br>
+    <input type="text" id="f3" name="f3"><br>
+    <button type="submit" onclick=f1()>add</button>
+    <button type="submit" onclick=f4()>multiply</button>
+    </form>
+</body>
+</html>
